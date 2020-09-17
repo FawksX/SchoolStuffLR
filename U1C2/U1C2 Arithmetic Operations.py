@@ -20,11 +20,11 @@ def multiplyTotal(amount):
     print(total)
 
 def calculateVolume():
-    width = int(input("Width of pool: "))
-    height = int(input("Height of pool: "))
-    length = int(input("Length of pool: "))
+    width = int(input("Width of pool (m): "))
+    height = int(input("Height of pool (m): "))
+    length = int(input("Length of pool (m): "))
     volume = width * height * length
-    print("Volume: " + volume)
+    print("Volume: " + str(volume) + "m^3")
 
 addTotal(3)
 multiplyTotal(2)
