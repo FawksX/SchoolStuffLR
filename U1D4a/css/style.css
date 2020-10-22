@@ -3,7 +3,7 @@ body {
     background-color: #4e555b;
     color: white;
     overflow: auto;
-    display: inline-block;
+    margin: 0;
 
 }
 
@@ -11,13 +11,12 @@ body {
 }
 
 .heading-left {
-    float: left;
-    display: inline-block;
-    overflow: auto;
+    float: left;overflow: auto;
     background-color: #171a1d;
-    min-width: 600px;
-    padding-right: 50px;
-
+    min-width: 500px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 60px;
 
 }
 
@@ -28,26 +27,26 @@ body {
 
 .heading-right {
     float: right;
-    display: inline-block;
-    padding: 0px 0px 0px 30px;
+    padding: 0px 0px 0px 10px;
 }
 
 .right-left {
     overflow: auto;
+    float: left;
     horiz-align: left;
-    min-width: 500px;
     min-height: 200px;
     padding: 5px 5px 5px 5px;
 }
 
 .right-right {
     overflow: auto;
-    horiz-align: right;
-    min-width: 500px;
+    float: right;
+    horiz-align: left;
     min-height: 200px;
+    padding: 5px 5px 5px 5px;
 }
 .heading-bottom {
-    display: inline-block;
+
     padding: 10px 10px 10px 10px;
 
 }
@@ -61,4 +60,22 @@ body {
 
 .heading-right p {
     margin: 0;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    background-color: slategrey;
+    height: 100px;
+}
+
+.copyright-notice {
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.fork {
+    float: right;
+    padding-right: 15px;
 }
